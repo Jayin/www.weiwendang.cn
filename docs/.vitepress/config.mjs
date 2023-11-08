@@ -1,5 +1,10 @@
 import { defineConfig } from "vitepress";
 
+
+// sitemap.xml 生成配置
+const sitemap = {
+  hostname: 'https://yifujian.cn',
+}
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "易附件",
@@ -7,6 +12,7 @@ export default defineConfig({
   description: "易附件，为你的公众号添加附件功能",
   appearance: false, // 是否启用暗黑模式
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  sitemap: sitemap,
   themeConfig: {
     logo: "/logo.png",
     siteTitle: "易附件 - YiFuJian.cn",
