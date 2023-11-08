@@ -1,10 +1,9 @@
 import { defineConfig } from "vitepress";
 
-
 // sitemap.xml 生成配置
 const sitemap = {
-  hostname: 'https://yifujian.cn',
-}
+  hostname: "https://yifujian.cn",
+};
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "易附件",
@@ -46,11 +45,11 @@ export default defineConfig({
           text: "基础功能",
           items: [
             { text: "直达链接", link: "/guide/func/func-direct-link" },
-            { text: "小程序路径", link: "/guide/func/func-mini-path" },
+            // { text: "小程序路径", link: "/guide/func/func-mini-path" },
             { text: "替换文件", link: "/guide/func/func-replace-file" },
             { text: "小程序码", link: "/guide/func/func-mini-code" },
-            { text: "删除附件", link: "/guide/func/func-del-file" },
-            { text: "附件密码", link: "/guide/func/func-file-psw" },
+            // { text: "删除附件", link: "/guide/func/func-del-file" },
+            // { text: "附件密码", link: "/guide/func/func-file-psw" },
           ],
         },
       ],
@@ -79,13 +78,11 @@ export default defineConfig({
     //   }
     // ],
 
-    socialLinks: [
-    ],
+    socialLinks: [],
     // 底部信息
     footer: {
-      message:
-        '本网站由 <a href="https://cloud.tencent.com/">腾讯云</a> 强力驱动',
-      copyright: "Copyright © 2023",
+      message: "",
+      copyright: "Copyright © 2023 易附件 yifujian.cn",
     },
     // 文档页页脚配置
     docFooter: {
