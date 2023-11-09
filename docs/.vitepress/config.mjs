@@ -1,5 +1,29 @@
 import { defineConfig } from "vitepress";
 
+// head 标签配置
+const head = [
+  ["link", { rel: "icon", href: "/favicon.ico" }],
+  // head: keywords
+  [
+    "meta",
+    {
+      name: "keywords",
+      content: "易附件,微附件,文章附件,公众号附件,公众号,附件,微信附件",
+    },
+  ],
+  // 百度统计
+  [
+    "script",
+    {},
+    `var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?9ec382cbe419f6f4021f0a24abb9a3b0";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();`,
+  ],
+]
 // sitemap.xml 生成配置
 const sitemap = {
   hostname: "https://yifujian.cn",
@@ -8,13 +32,10 @@ const sitemap = {
 export default defineConfig({
   title: "易附件",
   titleTemplate: "微信公众号文章附件功能",
-  description: "易附件，缺失的微信公众号文章附件功能。实现在微信公众号文章中插入附件，浏览附件。",
+  description:
+    "易附件，缺失的微信公众号文章附件功能。实现在微信公众号文章中插入附件，浏览附件。",
   appearance: false, // 是否启用暗黑模式
-  head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
-    // head: keywords
-    ["meta", { name: "keywords", content: "易附件,微附件,文章附件,公众号附件,公众号,附件,微信附件" }],
-  ],
+  head: head,
   sitemap: sitemap,
   themeConfig: {
     logo: "/logo.png",
