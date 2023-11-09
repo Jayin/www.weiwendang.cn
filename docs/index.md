@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "易附件"
   text: "微信公众号推文附件"
-  tagline: ✅ 微信附件 ✅ 免费 ✅ 统计 ✅ 格式转换
+  tagline: ✅ 文章附件 ✅ 免费 ✅ 统计 ✅ 格式转换
   image:
     src: /logo.png
     alt: 易附件
