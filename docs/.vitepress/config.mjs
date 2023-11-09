@@ -7,10 +7,14 @@ const sitemap = {
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "易附件",
-  titleTemplate: "微信公众号推文附件",
-  description: "易附件，为你的公众号添加附件功能",
+  titleTemplate: "微信公众号文章附件功能",
+  description: "易附件，缺失的微信公众号文章附件功能。实现在微信公众号文章中插入附件，浏览附件。",
   appearance: false, // 是否启用暗黑模式
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    // head: keywords
+    ["meta", { name: "keywords", content: "易附件,微附件,文章附件,公众号附件,公众号,附件,微信附件" }],
+  ],
   sitemap: sitemap,
   themeConfig: {
     logo: "/logo.png",
