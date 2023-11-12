@@ -27,5 +27,5 @@ outline: 3
 🎉 最后，重要的推文请务必预览后再发布。
 
 ### 其他常见用法
-- 1、[关键字回复附件](/guide/reply-file-by-keywords.md)
-- 2、[自定义菜单添加附件](/guide/reply-file-by-keywords.md)
+- 1、[关键字回复附件](/guide/reply-file-by-keyword.md)
+- 2、[自定义菜单添加附件](/guide/reply-file-by-keyword.md)
