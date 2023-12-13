@@ -31,7 +31,7 @@ const sitemap = {
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "易附件",
-  titleTemplate: "微信公众号文章附件功能",
+  titleTemplate: "微信公众号文章附件",
   description:
     "易附件，缺失的微信公众号文章附件功能。实现在微信公众号文章中插入附件，浏览附件。",
   appearance: false, // 是否启用暗黑模式
@@ -107,7 +107,7 @@ export default defineConfig({
     // 底部信息
     footer: {
       message: "",
-      copyright: "Copyright © 2023 易附件 yifujian.cn",
+      copyright: "Copyright © 2023 易附件 <a rel='nofollow' target='_blank' href='https://beian.miit.gov.cn/'>粤ICP备15109289号-5</a>",
     },
     // 文档页页脚配置
     docFooter: {
