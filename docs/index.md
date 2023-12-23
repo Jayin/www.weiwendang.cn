@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "易附件"
-  text: "微信公众号推文附件"
-  tagline: ✅ 文章附件 ✅ 免费 ✅ 统计 ✅ 格式转换
+  text: "稳定可靠的云文件"
+  tagline: ✅ 永久免费 ✅ 访问统计
   image:
     src: /logo.png
     alt: 易附件
   actions:
     - theme: brand
       text: 立马使用
-      link: https://wfj.devonline.net/
+      link: https://app.yifujian.cn
     - theme: alt
       text: 使用教程
       link: /guide/quick-start
