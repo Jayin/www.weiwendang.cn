@@ -8,7 +8,7 @@ const head = [
     "meta",
     {
       name: "keywords",
-      content: "易附件,微附件,文章附件,公众号附件,公众号,附件,微信附件",
+      content: "易附件,微附件,文章附件,附件",
     },
   ],
   // 百度统计
@@ -31,9 +31,9 @@ const sitemap = {
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "易附件",
-  titleTemplate: "微信公众号文章附件",
+  titleTemplate: "稳定可靠的云文件",
   description:
-    "易附件，缺失的微信公众号文章附件功能。实现在微信公众号文章中插入附件，浏览附件。",
+    "易附件，实现在文章中插入附件，浏览附件。",
   appearance: false, // 是否启用暗黑模式
   head: head,
   sitemap: sitemap,
