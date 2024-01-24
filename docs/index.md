@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "易附件"
   text: "稳定可靠的云文件"
-  tagline: ✅ 永久免费 ✅ 访问统计
+  tagline: ✅ 永久免费 ✅ 微附件管理 ✅ 访问统计
   image:
     src: /logo.png
     alt: 易附件
