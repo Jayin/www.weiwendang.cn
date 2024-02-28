@@ -20,8 +20,8 @@ hero:
 features:
   - title: 稳定又可靠
     details: 腾讯云提供云计算服务，节点覆盖全国
-  - title: 累计百万用户
-    details: 百万用户的信赖，见证我们的卓越
-  - title: 高效率
-    details: 高效率的上传、下载，让你专注于你的内容
+  - title: 多场景支持
+    details: 支持在公众号、网站中嵌入使用
+  - title: 简单易用
+    details: 高效率的上传，让你专注于内容创作
 ---
