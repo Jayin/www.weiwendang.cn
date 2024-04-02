@@ -7,7 +7,7 @@ outline: 3
 
 ![关联小程序](./images/custom-menu-by-fule-1.png)
 
-小程序名称输入『易附件』
+小程序名称或 APPID,进行搜索
 
 ![添加关联小程序](./images/custom-menu-by-fule-2.png)
 
