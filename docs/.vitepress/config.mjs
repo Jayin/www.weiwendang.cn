@@ -8,7 +8,7 @@ const head = [
     "meta",
     {
       name: "keywords",
-      content: "易附件,微附件,文章附件,附件",
+      content: "易附件,微附件,文章附件,云附件",
     },
   ],
   // 百度统计
@@ -30,8 +30,8 @@ const sitemap = {
 };
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "易附件_微附件",
-  titleTemplate: "稳定可靠的云文件",
+  title: "稳定可靠的附件服务",
+  titleTemplate: "易附件_微附件",
   description:
     "易附件(微附件)，支持公众号文章中插入附件，浏览附件。专业的云文件平台，累计百万用户，资源分发节点覆盖全国。",
   appearance: false, // 是否启用暗黑模式
