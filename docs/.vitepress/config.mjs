@@ -26,7 +26,7 @@ const head = [
 ]
 // sitemap.xml 生成配置
 const sitemap = {
-  hostname: "https://yifujian.cn",
+  hostname: "https://www.yifujian.cn",
 };
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -39,7 +39,7 @@ export default defineConfig({
   sitemap: sitemap,
   themeConfig: {
     logo: "/logo.png",
-    siteTitle: "易附件 YiFuJian.cn",
+    siteTitle: "易附件",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
