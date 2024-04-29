@@ -107,7 +107,7 @@ export default defineConfig({
     // 底部信息
     footer: {
       message: "",
-      copyright: "Copyright © 2023 易附件 <a rel='nofollow' target='_blank' href='https://beian.miit.gov.cn/'>粤ICP备2024164555号-2</a>",
+      copyright: "Copyright © 易附件 <a rel='nofollow' target='_blank' href='https://beian.miit.gov.cn/'>粤ICP备2024164555号-2</a>",
     },
     // 文档页页脚配置
     docFooter: {
