@@ -1,29 +1,34 @@
 import { defineConfig } from "vitepress";
 
 // head 标签配置
-const head = [
-  ["link", { rel: "icon", href: "/favicon.ico" }],
-  // head: keywords
-  [
-    "meta",
-    {
-      name: "keywords",
-      content: "易附件,微附件,文章附件,云附件",
-    },
-  ],
+const head = (() => {
+  let heads = [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    // head: keywords
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "易附件,微附件,文章附件,云附件",
+      },
+    ],
+  ];
   // 百度统计
-  [
-    "script",
-    {},
-    `var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?9ec382cbe419f6f4021f0a24abb9a3b0";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();`,
-  ],
-]
+  if (process.env.NODE_ENV === "production") {
+    heads.push([
+      "script",
+      {},
+      `var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?9ec382cbe419f6f4021f0a24abb9a3b0";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();`,
+    ]);
+  }
+  return heads
+})();
 // sitemap.xml 生成配置
 const sitemap = {
   hostname: "https://www.yifujian.cn",
@@ -107,7 +112,8 @@ export default defineConfig({
     // 底部信息
     footer: {
       message: "",
-      copyright: "Copyright © 易附件 <a rel='nofollow' target='_blank' href='https://beian.miit.gov.cn/'>粤ICP备2024164555号-2</a>",
+      copyright:
+        "Copyright © 易附件 <a rel='nofollow' target='_blank' href='https://beian.miit.gov.cn/'>粤ICP备2024164555号-2</a>",
     },
     // 文档页页脚配置
     docFooter: {
