@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 立马使用
-      link: https://app.yifujian.cn
+      link: https://app.yifujian.cn?utm_source=docs
     - theme: alt
       text: 使用教程
       link: /guide/quick-start
