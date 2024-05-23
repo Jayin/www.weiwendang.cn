@@ -59,7 +59,7 @@ export default defineConfig({
           items: [
             { text: "简介", link: "/guide/introduction" },
             { text: "快速上手", link: "/guide/quick-start" },
-            { text: "推文添加附件", link: "/guide/add-file-in-article" },
+            { text: "文章添加附件", link: "/guide/add-file-in-article" },
             { text: "关键词回复", link: "/guide/reply-file-by-keyword" },
             { text: "自定义菜单", link: "/guide/custom-menu-by-fule" },
           ],
