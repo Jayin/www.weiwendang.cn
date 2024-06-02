@@ -2,6 +2,8 @@
 
 易附件是一款深受新媒体运营人员的喜爱的运营工具。
 
+<img src="/qrcode_gh.png" style="height: 120px;">
+
 <!-- TODO
 优势：
 1、百万用户
