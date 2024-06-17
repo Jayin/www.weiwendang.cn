@@ -1,12 +1,11 @@
 ---
 outline: 3
+title: 常见问题
 ---
 
 
-# 常见问题
+### 常见问题
 > 列举易附件常见的问题，此文档会不断更新
-
-----
 
 [文件的有效期有多久？](./validity-period-of-documents)  
 [文件的私密性如何保障？](./privacy-of-files)  
