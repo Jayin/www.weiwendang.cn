@@ -1,4 +1,9 @@
-# 案例｜玉环人社微信公众号
+---
+title: 玉环人社
+titleTemplate: 用户案例
+---
+
+# 玉环人社微信公众号
 
 <img src="./img/yuhuanrenshe.png" style="width: 100px" alt="玉环人社微信公众号">
 
