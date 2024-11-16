@@ -18,3 +18,18 @@ TODO:
 - 联系我们？公众号
 - 服务协议？
 
+## 开发流程
+
+```shell
+# 本地启动
+npm run docs:dev
+
+# 构建生产版本
+npm run docs:build
+# 预览生产版本
+npm run docs:preview
+
+# 发布
+VERSION={版本号，例如:dist.20240101} npm run deploy
+VERSION=dist.20240101 npm run deploy
+```
