@@ -5,13 +5,13 @@ const head = (() => {
   let heads = [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     // head: keywords
-    [
-      "meta",
-      {
-        name: "keywords",
-        content: "易附件,微附件,文章附件,云附件",
-      },
-    ],
+    // [
+    //   "meta",
+    //   {
+    //     name: "keywords",
+    //     content: "易附件,微附件,文章附件,云附件",
+    //   },
+    // ],
   ];
   // 百度统计
   if (process.env.NODE_ENV === "production") {
@@ -35,10 +35,10 @@ const sitemap = {
 };
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "稳定可靠的附件服务",
+  title: "稳定可靠的文章微附件",
   titleTemplate: "易附件_微附件",
   description:
-    "易附件(微附件)，支持公众号文章中插入附件，浏览附件。专业的云文件平台，累计百万用户，资源分发节点覆盖全国。",
+    "易附件，支持微信公众号文章插入附件，浏览微附件内容。公众号运营人员都在用微附件管理工具。",
   appearance: false, // 是否启用暗黑模式
   head: head,
   sitemap: sitemap,
@@ -48,7 +48,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "使用教程", link: "/guide/introduction" },
+      { text: "使用教程", link: "/guide/quick-start" },
       { text: "常见问题", link: "/faq/index" },
     ],
 
@@ -57,7 +57,7 @@ export default defineConfig({
         {
           text: "开始",
           items: [
-            { text: "简介", link: "/guide/introduction" },
+            // { text: "简介", link: "/guide/introduction" },
             { text: "快速上手", link: "/guide/quick-start" },
             { text: "文章添加附件", link: "/guide/add-file-in-article" },
             { text: "关键词回复", link: "/guide/reply-file-by-keyword" },
@@ -113,7 +113,7 @@ export default defineConfig({
     footer: {
       message: "",
       copyright:
-        "Copyright © 易附件 <a rel='nofollow' target='_blank' href='https://beian.miit.gov.cn/'>粤ICP备2024164555号-2</a>",
+        "Copyright © 易附件 <a rel='nofollow' target='_blank' href='https://beian.miit.gov.cn/'>粤ICP备2024164555号</a>",
     },
     // 文档页页脚配置
     docFooter: {
@@ -125,7 +125,7 @@ export default defineConfig({
     // 本页目录 https://vitepress.dev/reference/default-theme-config#outline
     outline: {
       level: 2,
-      label: "本页目录",
+      label: "目录",
     },
   },
 });

@@ -1,12 +1,16 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-title: 易附件 - 公众号运营都在用的的文章微附件
-titleTemplate: 易附云出品
+title: 易附件 - 微信公众号文章附件
+titleTemplate:
+head:
+    - - meta
+      - name: description
+        content: 易附件,易附件官网,文章附件
 
 hero:
   name: "易附件"
-  text: "稳定可靠的云文件"
+  text: "稳定可靠的云附件"
   tagline: ✅ 永久免费 ✅ 微附件管理 ✅ 访问统计
   image:
     src: /logo.png
@@ -26,7 +30,7 @@ features:
     
   - icon: 💻
     title: 多场景支持
-    details: 支持在公众号、网站中嵌入使用
+    details: 支持在微信公众号、网站中嵌入使用
     
   - icon: 📝
     title: 简单易用
@@ -42,4 +46,4 @@ features:
 
 医院：儋州市中医医院、永州市脑科医院、盐城市第一人民医院、丹东市第三医院、新疆长安中医脑病医院、四川大学华西口腔医院护理部
 
-企业：Dpurat德普莱太、中安云教育、奥格科技、国投特检科技、资中文旅集团、瑞达环保科技
+企业：Dpurat德普莱太、中安云教育、奥格科技、国投特检科技、资中文旅集团、瑞达环保科技 
