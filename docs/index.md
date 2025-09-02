@@ -20,7 +20,7 @@ hero:
     alt: 微文档
   actions:
     - theme: brand
-      text: 立马使用
+      text: 免费开始使用
       link: https://app.weiwendang.cn?utm_source=docs
     - theme: alt
       text: 使用教程
@@ -617,8 +617,8 @@ features:
   <div class="partner-container">
     <h3 class="partner-title">技术合作伙伴</h3>
     <div class="partner-logos">
-      <div class="partner-logo">七牛云</div>
       <div class="partner-logo">腾讯云</div>
+      <div class="partner-logo">七牛云</div>
       <div class="partner-logo">微信开放平台</div>
       <div class="partner-logo">微信服务商</div>
       <div class="partner-logo">DeepSeek</div>

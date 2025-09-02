@@ -49,33 +49,6 @@ head:
         content: 微文档,公众号文档,文档分享,在线预览,知识管理,内容运营
 
 // ... existing code ...
-
-hero:
-  name: "微文档"
-  text: "让公众号文档分享更简单"
-  tagline: 专业的文档托管与分享平台
-  image:
-    src: /logo.png
-    alt: 微文档 - 公众号文档分享专家
-  actions:
-    - theme: brand
-      text: 开始使用
-      link: https://app.weiwendang.cn?utm_source=official
-    - theme: alt
-      text: 查看教程
-      link: /guide/quick-start
-
-features:
-  - icon: 📚
-    title: 专业文档管理
-    details: 支持多种格式，在线预览，让文档分享更专业
-  - icon: 🚀
-    title: 快速部署集成
-    details: 3分钟完成设置，一键集成到公众号内容
-  - icon: 🔒
-    title: 企业级安全
-    details: 多重安全保障，让您的文档分享无忧
-// ... existing code ...
 ```
 
  2、URL 结构差异化
@@ -91,13 +64,6 @@ features:
             { text: "文档嵌入指南", link: "/guide/embed-documents" },
             { text: "智能回复设置", link: "/guide/auto-reply-setup" },
             { text: "菜单集成配置", link: "/guide/menu-integration" },
-          ],
-        },
-        {
-          text: "文档管理",
-          items: [
-            { text: "桌面端上传", link: "/guide/desktop-upload" },
-            { text: "移动端操作", link: "/guide/mobile-operations" },
           ],
         },
         {

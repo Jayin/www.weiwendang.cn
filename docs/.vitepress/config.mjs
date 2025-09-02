@@ -46,6 +46,12 @@ export default defineConfig({
     logo: "/logo.png",
     siteTitle: "微文档",
     // https://vitepress.dev/reference/default-theme-config
+    // 自定义数据字典（以下划线开头表示私有数据）,使用 useData()调用
+    customData: {
+      // 附件上传入口
+      upload_url: "https://app.weiwendang.cn",
+    },
+    // 自定义数据字典 END
     nav: [
       { text: "首页", link: "/" },
       { text: "使用教程", link: "/guide/quick-start" },
@@ -59,25 +65,25 @@ export default defineConfig({
           items: [
             // { text: "简介", link: "/guide/introduction" },
             { text: "快速上手", link: "/guide/quick-start" },
-            { text: "文章添加附件", link: "/guide/add-file-in-article" },
-            { text: "关键词回复", link: "/guide/reply-file-by-keyword" },
-            { text: "自定义菜单", link: "/guide/custom-menu-by-fule" },
+            { text: "文章添加文档", link: "/guide/embed-documents" },
+            { text: "关键词回复", link: "/guide/auto-reply-by-keyword" },
+            { text: "菜单回复文档", link: "/guide/menu-integration" },
           ],
         },
-        {
-          text: "上传附件",
-          items: [
-            { text: "电脑端上传", link: "/guide/upload-on-pc" },
-            // { text: "小程序上传", link: "/guide/upload-on-mini" },
-          ],
-        },
+        // {
+        //   text: "上传附件",
+        //   items: [
+        //     { text: "电脑端上传", link: "/guide/upload-on-pc" },
+        //     // { text: "小程序上传", link: "/guide/upload-on-mini" },
+        //   ],
+        // },
         {
           text: "基础功能",
           items: [
-            { text: "直达链接", link: "/guide/func/func-direct-link" },
+            { text: "直达链接", link: "/guide/features/direct-link" },
             // { text: "小程序路径", link: "/guide/func/func-mini-path" },
-            { text: "替换文件", link: "/guide/func/func-replace-file" },
-            { text: "小程序码", link: "/guide/func/func-mini-code" },
+            { text: "替换文件", link: "/guide/features/replace-file" },
+            { text: "小程序码", link: "/guide/features/mini-code" },
             // { text: "删除附件", link: "/guide/func/func-del-file" },
             // { text: "附件密码", link: "/guide/func/func-file-psw" },
           ],
