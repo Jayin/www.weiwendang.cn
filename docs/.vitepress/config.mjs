@@ -21,7 +21,7 @@ const head = (() => {
       `var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?9ec382cbe419f6f4021f0a24abb9a3b0";
+        hm.src = "https://hm.baidu.com/hm.js?88de51383b7075ace7e7c58d775f2218";
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
       })();`,
@@ -31,20 +31,20 @@ const head = (() => {
 })();
 // sitemap.xml 生成配置
 const sitemap = {
-  hostname: "https://www.yifujian.cn",
+  hostname: "https://www.weiwendang.cn",
 };
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "稳定可靠的文章微附件",
-  titleTemplate: "易附件_微附件",
+  title: "安全易用的公众号微文档",
+  titleTemplate: "微文档",
   description:
-    "易附件，支持微信公众号文章插入附件，浏览微附件内容。公众号运营人员都在用微附件管理工具。",
+    "微文档，支持微信公众号文章插入文档，浏览文档内容。",
   appearance: false, // 是否启用暗黑模式
   head: head,
   sitemap: sitemap,
   themeConfig: {
     logo: "/logo.png",
-    siteTitle: "易附件",
+    siteTitle: "微文档",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
@@ -68,7 +68,7 @@ export default defineConfig({
           text: "上传附件",
           items: [
             { text: "电脑端上传", link: "/guide/upload-on-pc" },
-            { text: "小程序上传", link: "/guide/upload-on-mini" },
+            // { text: "小程序上传", link: "/guide/upload-on-mini" },
           ],
         },
         {
@@ -113,7 +113,7 @@ export default defineConfig({
     footer: {
       message: "",
       copyright:
-        "Copyright © 易附件 <a rel='nofollow' target='_blank' href='https://beian.miit.gov.cn/'>粤ICP备2024164555号</a>",
+        "Copyright © 微文档 <a rel='nofollow' target='_blank' href='https://beian.miit.gov.cn/'>粤ICP备2024164555号</a>",
     },
     // 文档页页脚配置
     docFooter: {
