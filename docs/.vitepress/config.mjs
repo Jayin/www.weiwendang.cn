@@ -119,7 +119,7 @@ export default defineConfig({
     footer: {
       message: "",
       copyright:
-        "Copyright © 微文档 <a rel='nofollow' target='_blank' href='https://beian.miit.gov.cn/'>粤ICP备2024164555号</a>",
+        "Copyright © 微文档 <a rel='nofollow' target='_blank' href='https://beian.miit.gov.cn/'>粤ICP备2023131138号</a>",
     },
     // 文档页页脚配置
     docFooter: {
