@@ -21,7 +21,7 @@ hero:
   actions:
     - theme: brand
       text: 免费开始使用
-      link: https://app.yifuian.cn?utm_source=docs
+      link: https://app.yifujian.cn?utm_source=docs
       rel: noopener
     - theme: alt
       text: 使用教程
@@ -607,7 +607,7 @@ features:
     <h2 class="cta-title">立即开始您的文档分享之旅</h2>
     <p class="cta-subtitle">加入100万+用户的信赖选择，体验专业的文档管理服务</p>
     <div class="cta-buttons">
-      <a href="https://app.yifuian.cn?utm_source=docs" class="cta-primary" rel="noopener">免费开始使用</a>
+      <a href="https://app.yifujian.cn?utm_source=docs" class="cta-primary" rel="noopener">免费开始使用</a>
       <a href="/guide/quick-start" class="cta-secondary">查看使用教程</a>
     </div>
   </div>
